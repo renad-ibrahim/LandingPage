@@ -6,7 +6,9 @@ body{
     font-size: 20px;
     height: 100vh;
 }
-
+.container{
+    width:75%;
+}
 .title{
     color: #FBD784;
 }
@@ -254,7 +256,7 @@ h1 , p , h2{
     color: #FBD784;
 }
 /* *********** ************ */
-/*@media (max-width:991px){
+@media (max-width:991px){
     .container{
         overflow: hidden;
     }
@@ -284,4 +286,4 @@ h1 , p , h2{
     .muse-header img{
         top: 50%;
     }
-}*/
+}
