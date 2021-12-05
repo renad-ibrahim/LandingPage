@@ -253,3 +253,35 @@ h1 , p , h2{
 .footer span{
     color: #FBD784;
 }
+/* *********** ************ */
+@media (max-width:991px){
+    .container{
+        overflow: hidden;
+    }
+    .navbar{
+        overflow: hidden;
+    }
+    .navbar-nav{
+        position: relative;
+        right: -85%;
+    }
+}
+@media (max-width:720px){
+    .container{
+        overflow: hidden;
+    }
+    .navbar{
+        overflow: hidden;
+    }
+    .navbar-nav{
+        position: relative;
+        right: -80%;
+    }
+    .heading-muse{
+        left: 8%;
+        text-align: center;
+    }
+    .muse-header img{
+        top: 50%;
+    }
+}
